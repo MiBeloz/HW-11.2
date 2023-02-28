@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 #ifdef LEAVERLIBRARYDINAMIC_EXPORTS
 #define LEAVERLIBRARY_API __declspec(dllexport)
@@ -12,7 +12,7 @@ namespace LeaverLibraryDinamic {
 	class Leaver {
 	public:
 		///<summary>
-		///Принимает на вход имя и возвращает прощание с именем
+		///РџСЂРёРЅРёРјР°РµС‚ РЅР° РІС…РѕРґ РёРјСЏ Рё РІРѕР·РІСЂР°С‰Р°РµС‚ РїСЂРѕС‰Р°РЅРёРµ СЃ РёРјРµРЅРµРј
 		/// <\summary>
 		LEAVERLIBRARY_API std::string leave(const std::string _name);
 	};
